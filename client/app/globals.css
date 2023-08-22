@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body-font{
+  font-family: "Open Sans", sans-serif;
+}
+.me-text{
+  font-family: "Open Sans", sans-serif;
+  color: #212529;
+}
+
+.active-nav{
+  color: #eb5d1e
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3a3a3a;
+  border-radius: 5px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
